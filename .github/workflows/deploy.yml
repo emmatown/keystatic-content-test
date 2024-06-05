@@ -16,7 +16,7 @@ jobs:
           script: |
             await github.rest.actions.createWorkflowDispatch({
               owner: "emmatown",
-              repo: "keystatic-2",
+              repo: "test-keystatic-2",
               workflow_id: "update-content.yml",
               ref: "main",
             });
